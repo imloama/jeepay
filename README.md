@@ -1,145 +1,165 @@
->XxPay'官方技术交流群①：206119456`已满2000` 群②:885394559`已满1000` 群③:742057837`已满500`。
+<p align="center">
+	<a href="https://www.jeepay.vip"><img src="https://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jeepay_logo.svg"></a>
+</p>
+<p align="center">
+	<strong>适合互联网企业使用的开源支付系统</strong>
+</p>
+<p align="center">
+	👉 <a href="https://www.jeepay.vip">https://www.jeepay.vip</a> 👈
+</p>
 
->XxPay'官方资源交流群①：214196580`已满500` 群②:838740906`已满500` 群③:616686832`已满500`。
+<p align="center">
+	<a target="_blank" href="https://spring.io/projects/spring-boot">
+		<img src="https://img.shields.io/badge/spring%20boot-2.4.5-yellowgreen" />
+	</a>
+    <a target="_blank" href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">
+		<img src="https://img.shields.io/badge/JDK-8-green.svg" />
+	</a>
+	<a target="_blank" href="http://www.gnu.org/licenses/lgpl.html">
+		<img src="https://img.shields.io/badge/license-LGPL--3.0-blue" />
+	</a>
+	<a href='https://gitee.com/jeequan/jeepay/stargazers' target="_blank">
+        <img src='https://gitee.com/jeequan/jeepay/badge/star.svg?theme=gvp' alt='star'></img>
+    </a>
+	<a target="_blank" href='https://github.com/jeequan/jeepay'>
+		<img src="https://img.shields.io/github/stars/jeequan/jeepay.svg?style=social" alt="github star"/>
+	</a>
+</p>
 
->XxPay'官方支付交流群④：709597332 （加群暗号：xxpay支付交流）
+<br/>
+<p align="center">
+	<a href="https://jq.qq.com/?_wv=1027&k=94WnXmdL">
+        <img src="https://img.shields.io/badge/qq%E7%BE%A4%E2%91%A0-635647058-critical"/>
+    </a>
+</p>
 
->XxPay'官方支付交流群①:727313291`2000人大群` 官方已发布刷脸支付商业版系统：https://www.xxpay.vip/cates/service/135.html
+-------------------------------------------------------------------------------
 
-***
+## 📚 项目介绍
 
-### 项目介绍
-***
+Jeepay是一套适合互联网企业使用的开源支付系统，支持多渠道服务商和普通商户模式。已对接`微信支付`，`支付宝`，`云闪付`官方接口，支持聚合码支付。
 
-- `XxPay聚合支付` XxPay聚合支付使用Java开发，包括spring-cloud、dubbo、spring-boot三个架构版本，已接入微信、支付宝等主流支付渠道，可直接用于生产环境。
+Jeepay使用`Spring Boot`和`Ant Design Vue`开发，集成`Spring Security`实现权限管理功能，是一套非常实用的web开发框架。
 
-- 目前已经接入支付渠道：微信(公众号支付、扫码支付、APP支付、H5支付)、支付宝(电脑网站支付、手机网站支付、APP支付、当面付)；
+### 🎁 名称的由来
 
-> [XxPay开源官网：http://www.xxpay.org](http://www.xxpay.org "xxpay官方网站")
-
-> [XxPay商业官网：https://www.xxpay.vip](https://www.xxpay.vip "xxpay商业系统")
-
-> [XxPay统一扫码支付体验：http://shop.xxpay.org/goods/openQrPay.html](http://shop.xxpay.org/goods/openQrPay.html "xxpay支付体验")
-
-> [XxPay运营平台演示：http://mgr.xxpay.org](http://mgr.xxpay.org "xxpay运营平台")
-
-> [XxPay文档库：http://docs.xxpay.org](http://docs.xxpay.org "xxpay文档库")
-
-> [XxPay刷脸支付系统介绍：https://www.yuque.com/dingzhiwei/xxpayface](https://www.yuque.com/dingzhiwei/xxpayface "XxPay刷脸支付系统介绍")
-
-### 版本更新
-***
-
-版本 |日期 |描述
-------- | ------- | -------
-V1.0.0 |2018-04-15 |在springboot版本中增加了rabbitMQ的支持，修复其他bug
-V1.0.0 |2018-04-09 |已完成spring cloud新版规划
-V1.0.0 |2017-11-25 |在dubbo版本增加了转账、退款接口；重构了商户通知；修复了已知Bug
-V1.0.0 |2017-10-24 |提交xxpay4spring-boot版本
-V1.0.0 |2017-09-10 |完成dubbo架构，增加支付订单查询接口
-V1.0.0 |2017-08-25 |微信支付SDK更换为weixin-java-pay，增加微信H5支付，增加docker部署支持
-V1.0.0 |2017-08-23 |升级支付宝为最新接口
-V1.0.0 |2017-08-20 |升级spring boot为1.5.6，修复通知bug
-V1.0.0 |2017-08-11 |完成spring-cloud架构，集成微信、支付宝渠道
-
-接下来的开源版本开发计划：
-```html
-+ 重点发展spring cloud架构版本；
-+ 增加PC，H5支付场景体验；
-+ 重构支付核心，便于渠道对接；
-+ 持续增加其他支付渠道对接；
-```
-真正开发未必按上面的顺序，大家如有更强烈的开发需求请反馈作者。
-
-### 项目测试
-------------
+Jeepay = Jee + pay，是由原XxPay支付系统作者带领团队开发，“Jee”是公司计全科技名称的表示，pay表示支付。中文名称为计全支付，释为：计出万全、支付安全，让支付更加方便安全。
 
 
-- 如何获取支付体验账号？关注官方公众号（搜索：XxPay），回复：测试账号。
-- 支付宝沙箱测试：[XxPay支付宝沙箱测试](http://docs.xxpay.org/docs/deploy/41 "XxPay支付宝沙箱测试")
+### 🍟 项目体验
 
-![体验XxPay支付流程，手机扫一扫可体验](https://git.oschina.net/uploads/images/2017/1009/112525_df5aac80_430718.png "XxPay支付体验")
+- Jeepay支付流程体验：[https://www.jeequan.com/demo/jeepay_cashier.html](https://www.jeequan.com/demo/jeepay_cashier.html "Jeepay支付体验")
+- Jeepay运营平台和商户系统演体验：[https://www.jeequan.com/doc/detail_84.html](https://www.jeequan.com/doc/detail_84.html "Jeepay支付系统体验")
+- Jeepay项目文档：[https://www.jeepay.vip](https://www.jeepay.vip "Jeepay项目文档")
 
-【运营平台截图】
+### 🍎 项目特点
 
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0814/015506_5b5871eb_430718.png "Xxpay运营平台")
+* 支持多渠道对接，支付网关自动路由
+* 已对接`微信`服务商和普通商户接口，支持`V2`和`V3`接口
+* 已对接`支付宝`服务商和普通商户接口，支持RSA和RSA2签名
+* 已对接`云闪付`服务商接口，可选择多家支付机构
+* 提供http形式接口，提供各语言的`sdk`实现，方便对接
+* 接口请求和响应数据采用签名机制，保证交易安全可靠
+* 系统安全，支持`分布式`部署，`高并发`
+* 管理端包括`运营平台`和`商户系统`
+* 管理平台操作界面简洁、易用
+* 支付平台到商户系统的订单通知使用MQ实现，保证了高可用，消息可达
+* 支付渠道的接口参数配置界面自动化生成
+* 使用`spring security`实现权限管理
+* 前后端分离架构，方便二次开发
+* 由原`XxPay`团队开发，有着多年支付系统开发经验
 
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0814/015531_b34e63aa_430718.png "Xxpay运营平台")
+## 🥞 系统架构
 
-### 项目结构
-***
-```
-xxpay-master
-├── xxpay4dubbo -- spring-boot-dubbo架构实现
-|    ├── xxpay4dubbo-api -- 接口定义
-|    ├── xxpay4dubbo-service -- 服务生产者
-|    ├── xxpay4dubbo-web -- 服务消费者
-├── xxpay4spring-cloud -- spring-cloud架构实现
-|    ├── xxpay-config -- 配置中心
-|    ├── xxpay-gateway -- API网关
-|    ├── xxpay-server -- 服务注册中心
-|    ├── xxpay-service -- 服务生产者
-|    └── xxpay-web -- 服务消费者
-├── xxpay4spring-mvc -- spring-mvc架构实现
-├── xxpay-common -- 公共模块
-├── xxpay-dal -- 数据持久层
-├── xxpay-mgr -- 运营管理平台
-├── xxpay-shop -- 演示商城
-```
+> Jeepay计全支付系统架构图
 
-#### xxpay-master
-| 项目  | 端口 | 描述
+![Jeepay系统架构图](https://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jeepay_framework.png "Jeepay系统架构图")
+
+> 核心技术栈
+
+| 软件名称  | 描述 | 版本
 |---|---|---
-|xxpay-common |  | 公共模块(常量、工具类等)，jar发布
-|xxpay-dal |  | 支付数据持久层，jar发布
-|xxpay-mgr | 8092 | 支付运营平台
-|xxpay-shop | 8081 | 支付商城演示系统
-|xxpay4spring-cloud |  | 支付中心spring-cloud架构实现
-|xxpay4dubbo |  | 支付中心spring-boot-dubbo架构实现
-|xxpay4spring-mvc |  | 支付中心spring-mvc架构实现
-#### xxpay4spring-cloud
-| 项目  | 端口 | 描述
-|---|---|---
-|xxpay-config | 2020 | 支付服务配置中心
-|xxpay-gateway | 3020 | 支付服务API网关
-|xxpay-server | 2000 | 支付服务注册中心
-|xxpay-service | 3000 | 支付服务生产者
-|xxpay-web | 3010 | 支付服务消费者
-项目启动顺序：
+|Jdk | Java环境 | 1.8
+|Spring Boot | 开发框架 | 2.4.5
+|Redis | 分布式缓存 | 3.2.8 或 高版本
+|MySQL | 数据库 | 5.7.X 或 8.0 高版本
+|MQ | 消息中间件 | ActiveMQ 或 RabbitMQ 或 RocketMQ
+|[Ant Design Vue](https://www.antdv.com/docs/vue/introduce-cn/) | Ant Design的Vue实现，前端开发使用 | 2.1.2
+|[MyBatis-Plus](https://mp.baomidou.com/) | MyBatis增强工具 | 3.4.2
+|[WxJava](https://gitee.com/binary/weixin-java-tools) | 微信开发Java SDK | 4.1.0
+|[Hutool](https://www.hutool.cn/) | Java工具类库 | 5.6.6
+
+> 项目结构
+
+```lua
+jeepay-ui  -- https://gitee.com/jeequan/jeepay-ui
+
+jeepay
+├── conf -- 存放系统部署使用的.yml文件
+└── docs -- 存放项目相关文档说明
+     ├── script -- 项目启动shell脚本
+     └── sql -- 初始化sql文件
+├── jeepay-core -- 核心依赖包
+├── jeepay-manager -- 运营平台服务端[9217]
+├── jeepay-merchant -- 商户系统服务端[9218]
+├── jeepay-payment -- 支付网关[9216]
+├── jeepay-service -- 业务层代码
+└── jeepay-z-codegen -- mybatis代码生成
 ```
-xxpay-server > xxpay-config > xxpay-service > xxpay-web > xxpay-gateway
-```
-#### xxpay4dubbo
-| 项目  | 端口 | 描述
-|---|---|---
-|xxpay4dubbo-api |  | API接口定义
-|xxpay4dubbo-service | 20880 | 支付服务生产者
-|xxpay4dubbo-web | 3020 | 支付服务消费者
-项目启动顺序：
-```
-xxpay4dubbo-service > xxpay4dubbo-web
-```
-### 项目部署
+
+> 开发部署
+
+- 系统开发：[https://docs.jeequan.com/docs/jeepay/dev_serv](https://docs.jeequan.com/docs/jeepay/dev_serv)
+- 通道对接：[https://docs.jeequan.com/docs/jeepay/dev_channel](https://docs.jeequan.com/docs/jeepay/dev_channel)
+- 线上部署：[https://docs.jeequan.com/docs/jeepay/deploy](https://www.jeepay.vip/#/develop/deploy)
+- 接口文档：[https://docs.jeequan.com/docs/jeepay/payment_api](https://docs.jeequan.com/docs/jeepay/payment_api)
+
+## 🍿 功能模块
+
+> Jeepay运营平台功能
+
+![Jeepay运营平台功能](https://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jeepay_mgr.png "Jeepay运营平台功能")
+
+> Jeepay商户系统功能
+
+![Jeepay商户系统功能](https://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jeepay_mch.png "Jeepay商户系统功能")
+
+## 🍯 系统截图
+
+`以下截图是从实际已完成功能界面截取,截图时间为：2021-07-06 08:59`
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/001.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/023.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/002.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/005.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/006.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/009.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/010.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/011.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/012.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/013.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/014.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/015.png "Jeepay演示界面")
+
+![Jeepay演示界面](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/022.png "Jeepay演示界面")
+
+## 🥪 关于我们
 ***
+微信扫描下面二维码，关注官方公众号：计全科技，获取更多精彩内容。
 
-项目部署文档：[XxPay项目部署](http://docs.xxpay.org/docs/deploy "xxpay部署")
+![计全科技公众号](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jee-qrcode.jpg "计全科技公众号")
 
-作者已成功将项目部署在阿里云主机上，服务器配置为：
+微信扫描下方二维码，邀请进官方微信交流群（加好友备注：邀请进群或jeepay咨询）。
 
-| CPU  | 内存 | 操作系统
-|---|---|---
-|1核 | 2 GB | CentOS 6.8 64位
-
-安装的各软件对应的版本为（仅供参考）：
-
-| 软件  | 版本 | 说明
-|---|---|---
-|JDK | 1.8 | spring boot 对低版支持没有测过
-|ActiveMQ|  5.11.1 | 高版本也可以，如：5.14.3
-|MySQL | 5.7.17 | 要在5.6以上，否则初始化SQL会报错，除非手动修改建表语句
-
-### 关于我们
-***
-微信扫描下面二维码，关注官方公众号：XxPay，获取更多精彩内容。
-
-![XxPay聚合支付公众号](http://docs.xxpay.org/uploads/201708/attach_14dc8f1fac0a36a1.jpg "XxPay公众号")
+![Jeepay微信交流群](http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/wx_my.png "Jeepay微信交流群")
